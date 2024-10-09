@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Train Table</title>
+    <style>
+      table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 20px auto;
+      }
+      th,
+      td {
+        border: 1px solid #0c0b0b;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #a7da30;
+        color: rgb(8, 8, 8);
+      }
+      td {
+        background-color: lightyellow;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <thead>
+        <tr>
+          <th rowspan="2">TNO</th>
+          <th rowspan="2">TName</th>
+          <th colspan="2">Timing</th>
+          <th rowspan="2">Fare</th>
+        </tr>
+        <tr>
+          <th>ARR</th>
+          <th>DEPT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>12345</td>
+          <td>Deccan Queen</td>
+          <td>10:30 AM</td>
+          <td>10:45 AM</td>
+          <td>$25</td>
+        </tr>
+        <tr>
+          <td>54321</td>
+          <td>Superfast Train</td>
+          <td>11:00 AM</td>
+          <td>11:15 AM</td>
+          <td>$30</td>
+        </tr>
+        <tr>
+          <td>98765</td>
+          <td>Local Train</td>
+          <td>09:30 AM</td>
+          <td>09:45 AM</td>
+          <td>$15</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

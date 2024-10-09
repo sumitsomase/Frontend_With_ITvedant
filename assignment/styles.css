@@ -1,0 +1,64 @@
+body {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+  }
+  h1{
+    
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .buttonuber{
+   background-color: black;
+   color: white;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: none;
+   cursor: pointer;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 17px;
+   padding-right: 17px;
+   font-size: 16px;
+   border-radius: 2px;
+   margin-right: 10px;
+   font-family: 'Times New Roman', Times, serif;
+  }
+
+  .buttoncart{
+    background-color: rgb(255,216,20);
+    color: black;
+    border: none;
+    height: 34px;
+    width: 174px;
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+  }
+
+  .buttongithub{
+
+    background-color: rgb(46,164,79);
+   color: white;
+   margin-top: 10px;
+   margin-left: 10px;
+   border: none;
+   cursor: pointer;
+   height: 33px;
+   width: 100px;
+   border-radius: 6px;
+   font-weight: 50px;
+   font-family: 'Times New Roman', Times, serif;
+   
+   
+
+  }

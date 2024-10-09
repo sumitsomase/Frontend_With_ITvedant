@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HR Portal</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1 class="portal">Welcome To HR Portal</h1>
+        <nav>
+            <ul class="container">
+                <li><a href="#employee-registration" class="list-item">Employee Registration</a></li>
+                <li><a href="#list-of-employee" class="list-item">List of Employee</a></li>
+                <li><a href="#contact-us" class="list-item">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <img src="/images/one.jpg" alt="Company Image" class="hero-image">
+
+    <section id="employee-registration">
+        <h2>Register New Employee</h2>
+        <form>
+            <div class="form-group">
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" required />
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" required />
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" required />
+            </div>
+            <div class="form-group">
+                <label for="number">Mobile Number</label>
+                <input type="tel" id="number" required />
+            </div>
+            <div class="form-group">
+                <label for="dept">Position</label>
+                <select id="dept" required>
+                    <option value="">Select Position</option>
+                    <option value="frontend">Frontend Developer</option>
+                    <option value="fullstack">Full Stack Developer</option>
+                    <option value="backend">Backend Developer</option>
+                </select>
+            </div>
+            <input type="submit" value="Submit" />
+        </form>
+    </section>
+
+    <section id="list-of-employee">
+        <h2>Work With Us</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Experience</th>
+                    <th>Position</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jon</td>
+                    <td>Fresher</td>
+                    <td>Frontend Developer</td>
+                </tr>
+                <tr>
+                    <td>Vikrant</td>
+                    <td>2-3 Years</td>
+                    <td>Frontend Developer</td>
+                </tr>
+                <tr>
+                    <td>Smith</td>
+                    <td>5 Years</td>
+                    <td>Full Stack Developer</td>
+                </tr>
+                <tr>
+                    <td>Bharat</td>
+                    <td>3.5 Years</td>
+                    <td>Backend Developer</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>Mobile No: 7219718979</p>
+        <p>Email: spacematrix@gmail.com</p>
+        <p>Location: Avanti Nagar, Near Maitri Apartment, Pune-21341</p>
+    </section>
+
+    <footer>
+        <h4 class="copy">Copyrights reserved &copy; 2024</h4>
+    </footer>
+</body>
+</html>

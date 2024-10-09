@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; /* Font for the entire body */
+    margin: 0; /* Removes default margin */
+    line-height: 1.6; /* Line height for better readability */
+}
+
+/* Header Styles */
+header {
+    background-color: rgb(172, 233, 233); /* Header background color */
+    padding: 20px 0; /* Padding for the header */
+}
+
+.portal {
+    text-align: center; /* Center the heading */
+    color: rgb(13, 13, 14); /* Heading text color */
+    margin: 0; /* Removes default margin */
+}
+
+.container {
+    display: flex; /* Flexbox for navigation */
+    justify-content: center; /* Center items */
+    padding: 0; /* Removes padding from the list */
+    list-style-type: none; /* Removes bullet points */
+}
+
+.list-item {
+    padding: 16px 20px; /* Padding for list items */
+    font-size: 18px; /* Font size for list items */
+    text-decoration: none; /* No underline */
+    transition: background 0.3s; /* Transition for background change */
+}
+
+.list-item:hover {
+    background-color: rgba(233, 10, 10, 0.1); /* Light background on hover */
+}
+
+/* Image Styles */
+.hero-image {
+    width: 100%; /* Full width for the image */
+    height: 60vh; /* Height for the image */
+    object-fit: cover; /* Cover image */
+}
+
+/* Section Styles */
+section {
+    max-width: 1170px; /* Maximum width for sections */
+    margin: auto; /* Center sections */
+    padding: 20px; /* Padding around sections */
+    border-radius: 8px; /* Rounded corners */
+}
+
+/* Employee Registration Form Styles */
+#employee-registration {
+    background-color: rgb(180, 221, 114); /* Background color for form */
+}
+
+h2 {
+    text-align: center; /* Center the subheading */
+    color: #333; /* Dark color for the heading */
+}
+
+.form-group {
+    margin-bottom: 15px; /* Space between form groups */
+}
+
+label {
+    display: block; /* Each label on a new line */
+    margin-bottom: 5px; /* Space between label and input */
+    color: #555; /* Gray color for labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: calc(100% - 20px); /* Full width for inputs */
+    padding: 10px; /* Padding inside the inputs */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Green background for the button */
+    color: white; /* White text for the button */
+    border: none; /* No border */
+    padding: 10px; /* Padding inside the button */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    width: 98%; /* Full width for the button */
+    font-size: 16px; /* Font size for button */
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Employee List Styles */
+#list-of-employee {
+    background-color: aliceblue; /* Background color for the list */
+}
+
+table {
+    width: 100%; /* Full width for the table */
+    border-collapse: collapse; /* Collapse borders */
+    margin: 20px 0; /* Margin above and below the table */
+}
+
+th,
+td {
+    border: 1px solid #0c0b0b; /* Table cell border */
+    padding: 8px; /* Padding inside cells */
+    text-align: center; /* Center text */
+    background-color: aquamarine; /* Background color for cells */
+}
+
+th {
+    background-color: #e2d3d3; /* Background color for header */
+}
+
+/* Contact Us Styles */
+#contact-us {
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Spacing inside the section */
+    max-width: 1170px; /* Maximum width for the section */
+    margin: 20px auto; /* Centering the section */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+h2 {
+    color: #333; /* Darker color for the heading */
+    font-size: 2em; /* Larger font size for the heading */
+    text-align: center; /* Centered text */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+footer {
+    background-color: #333; /* Dark background color */
+    color: white; /* White text color for contrast */
+    text-align: center; /* Centering the text */
+    padding: 20px; /* Padding around the text */
+}
+
+.copy {
+    margin: 0; /* Removes default margin */
+    font-size: 1em; /* Font size for the copyright text */
+    opacity: 0.7; /* Slightly transparent text for a softer look */
+}
