@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+   
+    margin-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px; /* Added padding for some inner space */
+}
+
+.left-section {
+    
+    width: 150px;
+    display: flex;
+    
+}
+
+.youtube-logo {
+    width: 50px;
+    
+    object-fit: contain;
+    margin-left: 10px; 
+}
+.hamburger-menu{
+    width: 20px;
+    object-fit: contain;
+
+}
+
+.mid-section {
+   
+    flex: 1; /* This will take up the remaining space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-input {
+    width: 400px;
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid #2a17d6;
+    border-radius: 3px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.search-button {
+    height: 30px;
+    padding: 0 15px;
+    background-color: #ccc;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #dd1b1b;
+}
+
+
+.right-section {
+   
+    width: 150px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.notification-icon {
+    width: 25px;
+    cursor: pointer;
+    margin-right: 15px;
+    
+}
+
+.user-profile {
+    width: 45px;
+    height: 40px;
+    border-radius: 50%; /* Makes the image circular */
+    cursor: pointer;
+   
+}
